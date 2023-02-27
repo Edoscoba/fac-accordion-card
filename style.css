@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-size: 12px;
+    background: white;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(273, 75%, 66%);
+    
+}
+.faq-accord{
+    display: flex;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 3rem;
+   max-width: 1100px;
+   border-radius: 20px;
+   justify-content: center;
+   align-content: center;
+   width: 69rem;
+   height: 30rem;
+}
+.fag-descript{
+    padding-top: 2rem;
+    padding-right: 10rem;
+}
+
+.woman{
+    padding-top: 2rem;
+    position: relative;
+   right: 8rem;
+}
+
+.box{
+    position: absolute;
+    left:  3%;
+    top: 11rem;   
+}
+
+
+ details > summary { list-style-type: none; }
+  details > summary::-webkit-details-marker { display: none; }
+ details > summary::after { content: '🔺'; } details[open] > summary::after{ content: '🔻'; } 
+ details{ padding: 0.5rem; } 
+ details[open] > summary { margin-bottom: 0.5rem; } 
